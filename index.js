@@ -30,6 +30,7 @@ async function main() {
     }
     const keystore = await loadKeystore(process.argv[2])
     console.log(keystore)
+    console.log(JSON.stringify(keystore))
 }
 
 main()
